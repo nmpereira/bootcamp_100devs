@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+section {
+  border: 1px solid blue;
+  height: 100px;
+  width: 33.33333%;
+  float: left;
+
+  /* display: block; */
+}
+
+header,
+footer {
+  border: 1px solid green;
+  height: 100px;
+  clear: both;
+}

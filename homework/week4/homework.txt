@@ -1,6 +1,9 @@
-Due Tuesday - Jan. 25th:
-Read: https://learnlayout.com/
-Finish: Labs From Class-03 - BBC, Khan Academy, Tech Crunch
+Due Thursday - Jan. 27th
+Do: Finish Simple Site Lab from class-04 (HTML & CSS)
+Read: http://learnlayout.com/
+Do: https://www.typingtest.com/ (Five Minute Test)
+Do: Practice Typing - https://www.keybr.com/
 
 
-Here are the slides:
+
+Here are the slides: https://slides.com/leonnoel/100devs2-css-the-basics/
