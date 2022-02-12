@@ -1,0 +1,135 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+}
+
+footer {
+}
+
+nav li,
+nav > ul > li > a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  padding-bottom: 15%;
+}
+nav img {
+  height: 3rem;
+  padding: 20px 0 0 40px;
+}
+nav p {
+  padding: 1px 0 0 40px;
+  font-size: 1rem;
+}
+nav p a {
+  text-decoration: none;
+}
+.join {
+  font-weight: bold;
+  color: rgb(255, 196, 0);
+}
+.login {
+  color: black;
+  padding-top: -5px;
+}
+
+.main > img {
+  width: 80%;
+}
+nav {
+  float: left;
+  padding-right: 3%;
+}
+.main {
+  float: left;
+  /* width: 50%; */
+  /* border: 1px solid black; */
+}
+
+.aside article {
+  border-bottom: 1px solid;
+  /* width: 40%; */
+
+  /* margin-left: 3%; */
+}
+
+.aside {
+  float: left;
+  width: 30%;
+  /* border: 1px solid black; */
+}
+
+/* *******************************  */
+
+.bottomContent {
+  clear: both;
+  padding-top: 1%;
+}
+
+.bottomContent > p {
+  padding-left: 11%;
+  font-weight: bold;
+}
+
+.bottomContent article {
+  height: 10rem;
+  padding-left: 11%;
+  padding-right: 5%;
+}
+
+.contentHeader {
+  float: left;
+  width: 30%;
+}
+
+.articleContent {
+  float: left;
+  width: 30%;
+}
+
+.bottomContent img {
+  height: 100%;
+  float: right;
+  /* width: 30%; */
+  padding: 20px 0;
+}
+
+.bottomName,
+.bottomTime {
+  font-size: 11px;
+}
+.bottomName {
+  font-weight: bold;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

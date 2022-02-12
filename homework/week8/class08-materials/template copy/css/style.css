@@ -1,0 +1,117 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  /* height: 100%; */
+  border: 1px solid red;
+}
+
+/* html,
+body {
+  box-sizing: inherit;
+} */
+
+.container {
+  height: 1200px;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  /* margin: 0; */
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+}
+
+footer {
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.top {
+  height: 600px;
+  width: 100%;
+  border: 2px solid red;
+}
+.bottom {
+  height: 400px;
+  width: 100%;
+  border: 2px solid green;
+}
+
+.doublebottom {
+  height: 200px;
+  width: 100%;
+  border: 2px solid green;
+}
+.navBar {
+  height: 5%;
+  width: 100%;
+  border: 2px solid green;
+  float: left;
+}
+.main {
+  height: 65%;
+  width: 100%;
+  border: 2px solid rgb(63, 246, 7);
+}
+.feature {
+  height: 35%;
+  width: 100%;
+  border: 2px solid brown;
+}
+.featureSection {
+  height: 100%;
+  width: 25%;
+  border: 2px solid yellow;
+  float: left;
+}
+.mainSub {
+  height: 95%;
+  width: 50%;
+  border: 2px solid rgb(255, 0, 234);
+  float: left;
+}
+.navMain {
+  width: 5%;
+  float: left;
+  border: 2px solid brown;
+  margin-right: 17%;
+  padding-left: 20px;
+}
+
+.navLinkSection {
+  width: 300px;
+  float: left;
+  border: 2px solid pink;
+  margin: 0 auto;
+}
+.navButton {
+  width: auto;
+  float: right;
+  border: 2px solid blue;
+}
+.navLink {
+  float: left;
+  border: 2px solid lightblue;
+}

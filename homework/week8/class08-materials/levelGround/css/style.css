@@ -1,0 +1,92 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html,
+body {
+  height: 100%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+}
+
+footer {
+}
+
+* {
+  /* border: 1px solid red; */
+}
+
+.topSection {
+  background: #66768a;
+}
+.topSection nav ul li a,
+.topSection nav ul li {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  list-style: none;
+}
+.topSection nav li {
+  float: left;
+  width: 25%;
+}
+
+.topMain {
+  clear: both;
+  color: white;
+  text-align: center;
+  height: 30rem;
+}
+.topMain {
+}
+
+.doubleSplit {
+  background: #dbdfe2;
+  position: absolute;
+}
+
+.footerSection {
+  background: #161f2a;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.LgLogo,
+.videoIcon {
+  height: 50px;
+}
